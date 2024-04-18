@@ -1,3 +1,10 @@
+#  Encuentre el máximo común divisor entre dos números enteros.                                                                      │
+# │                                                                                                                                   │
+# │ NOTAS:                                                                                                                            │
+# │                                                                                                                                   │
+# │  • No es necesario utilizar ningún algoritmo existente.                                                                           │
+# │  • Basta con probar divisores.
+
 def gcd(a, b):
     while a != 0 and b != 0:
         cociente = a //b
